@@ -1,0 +1,29 @@
+{
+    "name": "demo",
+    "version": "0.0.1",
+    "description": "一份简单的扩展包",
+    "author": "Zhao Ce",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/demo1": {
+            "message": "demo:say-hello"
+        },
+        "Packages/demo2": {
+            "message": "demo:open"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "Simple Panel",
+        "width": 400,
+        "height": 300
+    },
+    "panel.02": {
+        "main": "panel.02/index.js",
+        "type": "dockable",
+        "title": "Simple Panel 02",
+        "width": 400,
+        "height": 300
+    }
+}
